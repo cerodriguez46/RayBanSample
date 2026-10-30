@@ -17,6 +17,7 @@
 		EF1F0733309470350000A8C9 /* MWDATMotion in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F0732309470350000A8C9 /* MWDATMotion */; };
 		EF1F0735309470350000A8C9 /* MWDATSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F0734309470350000A8C9 /* MWDATSpeech */; };
 		EF1F073930947DD30000A8C9 /* DeveloperKeys.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */; };
+		EF1F0753309484A60000A8C9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EF1F07523094849D0000A8C9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		EF1F0717309467530000A8C9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EF1F072330946CE10000A8C9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LICENSE; sourceTree = "<group>"; };
 		EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DeveloperKeys.xcconfig; sourceTree = "<group>"; };
+		EF1F07523094849D0000A8C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -122,6 +124,7 @@
 		EF1F06E2309463A50000A8C9 = {
 			isa = PBXGroup;
 			children = (
+				EF1F07523094849D0000A8C9 /* README.md */,
 				EF1F0750309482850000A8C9 /* .github */,
 				EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */,
 				EF1F072330946CE10000A8C9 /* LICENSE */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF1F0718309467770000A8C9 /* .gitignore in Resources */,
+				EF1F0753309484A60000A8C9 /* README.md in Resources */,
 				EF1F073930947DD30000A8C9 /* DeveloperKeys.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
