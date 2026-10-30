@@ -12,3 +12,13 @@ xcuserdata/
 
 # Swift Package Manager temporary files
 .build/
+
+# Local Codex CLI state/cache for this repo
+.codex-home/
+
+# Secret Developer Keys
+DeveloperKeys.xcconfig
+
+# Local OpenAI Codex Agent Configurations
+codex.local
+.codex-home/

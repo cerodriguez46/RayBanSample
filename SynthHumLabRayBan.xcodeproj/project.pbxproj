@@ -8,7 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		EF1F0718309467770000A8C9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EF1F0717309467530000A8C9 /* .gitignore */; };
-		EF1F072430946CED0000A8C9 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = EF1F072330946CE10000A8C9 /* LICENSE */; };
+		EF1F0727309470350000A8C9 /* MWDATCamera in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F0726309470350000A8C9 /* MWDATCamera */; };
+		EF1F0729309470350000A8C9 /* MWDATCore in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F0728309470350000A8C9 /* MWDATCore */; };
+		EF1F072B309470350000A8C9 /* MWDATDisplay in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F072A309470350000A8C9 /* MWDATDisplay */; };
+		EF1F072D309470350000A8C9 /* MWDATInputs in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F072C309470350000A8C9 /* MWDATInputs */; };
+		EF1F072F309470350000A8C9 /* MWDATMockDevice in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F072E309470350000A8C9 /* MWDATMockDevice */; };
+		EF1F0731309470350000A8C9 /* MWDATMockDeviceTestClient in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F0730309470350000A8C9 /* MWDATMockDeviceTestClient */; };
+		EF1F0733309470350000A8C9 /* MWDATMotion in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F0732309470350000A8C9 /* MWDATMotion */; };
+		EF1F0735309470350000A8C9 /* MWDATSpeech in Frameworks */ = {isa = PBXBuildFile; productRef = EF1F0734309470350000A8C9 /* MWDATSpeech */; };
+		EF1F073930947DD30000A8C9 /* DeveloperKeys.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +42,25 @@
 		EF1F0702309463A70000A8C9 /* SynthHumLabRayBanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynthHumLabRayBanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1F0717309467530000A8C9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		EF1F072330946CE10000A8C9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LICENSE; sourceTree = "<group>"; };
+		EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DeveloperKeys.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EF1F07373094755A0000A8C9 /* Exceptions for "SynthHumLabRayBan" folder in "SynthHumLabRayBan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = EF1F06EA309463A50000A8C9 /* SynthHumLabRayBan */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EF1F06ED309463A50000A8C9 /* SynthHumLabRayBan */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EF1F07373094755A0000A8C9 /* Exceptions for "SynthHumLabRayBan" folder in "SynthHumLabRayBan" target */,
+			);
 			path = SynthHumLabRayBan;
 			sourceTree = "<group>";
 		};
@@ -64,6 +86,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1F0735309470350000A8C9 /* MWDATSpeech in Frameworks */,
+				EF1F072B309470350000A8C9 /* MWDATDisplay in Frameworks */,
+				EF1F0731309470350000A8C9 /* MWDATMockDeviceTestClient in Frameworks */,
+				EF1F0733309470350000A8C9 /* MWDATMotion in Frameworks */,
+				EF1F0727309470350000A8C9 /* MWDATCamera in Frameworks */,
+				EF1F0729309470350000A8C9 /* MWDATCore in Frameworks */,
+				EF1F072F309470350000A8C9 /* MWDATMockDevice in Frameworks */,
+				EF1F072D309470350000A8C9 /* MWDATInputs in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +117,7 @@
 		EF1F06E2309463A50000A8C9 = {
 			isa = PBXGroup;
 			children = (
+				EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */,
 				EF1F072330946CE10000A8C9 /* LICENSE */,
 				EF1F071930946C2E0000A8C9 /* docs */,
 				EF1F0717309467530000A8C9 /* .gitignore */,
@@ -128,6 +159,14 @@
 			);
 			name = SynthHumLabRayBan;
 			packageProductDependencies = (
+				EF1F0726309470350000A8C9 /* MWDATCamera */,
+				EF1F0728309470350000A8C9 /* MWDATCore */,
+				EF1F072A309470350000A8C9 /* MWDATDisplay */,
+				EF1F072C309470350000A8C9 /* MWDATInputs */,
+				EF1F072E309470350000A8C9 /* MWDATMockDevice */,
+				EF1F0730309470350000A8C9 /* MWDATMockDeviceTestClient */,
+				EF1F0732309470350000A8C9 /* MWDATMotion */,
+				EF1F0734309470350000A8C9 /* MWDATSpeech */,
 			);
 			productName = SynthHumLabRayBan;
 			productReference = EF1F06EB309463A50000A8C9 /* SynthHumLabRayBan.app */;
@@ -211,6 +250,9 @@
 			);
 			mainGroup = EF1F06E2309463A50000A8C9;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EF1F06EC309463A50000A8C9 /* Products */;
 			projectDirPath = "";
@@ -229,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF1F0718309467770000A8C9 /* .gitignore in Resources */,
+				EF1F073930947DD30000A8C9 /* DeveloperKeys.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,7 +296,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF1F072430946CED0000A8C9 /* LICENSE in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +331,7 @@
 /* Begin XCBuildConfiguration section */
 		EF1F070A309463A70000A8C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -353,6 +396,7 @@
 		};
 		EF1F070B309463A70000A8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -418,6 +462,7 @@
 				DEVELOPMENT_TEAM = FXG8WD64JS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SynthHumLabRayBan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,6 +495,7 @@
 				DEVELOPMENT_TEAM = FXG8WD64JS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SynthHumLabRayBan/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -596,6 +642,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/meta-wearables-dat-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF1F0726309470350000A8C9 /* MWDATCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCamera;
+		};
+		EF1F0728309470350000A8C9 /* MWDATCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCore;
+		};
+		EF1F072A309470350000A8C9 /* MWDATDisplay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATDisplay;
+		};
+		EF1F072C309470350000A8C9 /* MWDATInputs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATInputs;
+		};
+		EF1F072E309470350000A8C9 /* MWDATMockDevice */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATMockDevice;
+		};
+		EF1F0730309470350000A8C9 /* MWDATMockDeviceTestClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATMockDeviceTestClient;
+		};
+		EF1F0732309470350000A8C9 /* MWDATMotion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATMotion;
+		};
+		EF1F0734309470350000A8C9 /* MWDATSpeech */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF1F0725309470350000A8C9 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATSpeech;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF1F06E3309463A50000A8C9 /* Project object */;
 }
