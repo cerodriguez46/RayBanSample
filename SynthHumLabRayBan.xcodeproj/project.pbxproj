@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EF1F0718309467770000A8C9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EF1F0717309467530000A8C9 /* .gitignore */; };
+		EF1F072430946CED0000A8C9 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = EF1F072330946CE10000A8C9 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		EF1F06F8309463A70000A8C9 /* SynthHumLabRayBanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynthHumLabRayBanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1F0702309463A70000A8C9 /* SynthHumLabRayBanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynthHumLabRayBanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1F0717309467530000A8C9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EF1F072330946CE10000A8C9 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -48,6 +50,11 @@
 		EF1F0705309463A70000A8C9 /* SynthHumLabRayBanUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SynthHumLabRayBanUITests;
+			sourceTree = "<group>";
+		};
+		EF1F071930946C2E0000A8C9 /* docs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = docs;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,6 +87,8 @@
 		EF1F06E2309463A50000A8C9 = {
 			isa = PBXGroup;
 			children = (
+				EF1F072330946CE10000A8C9 /* LICENSE */,
+				EF1F071930946C2E0000A8C9 /* docs */,
 				EF1F0717309467530000A8C9 /* .gitignore */,
 				EF1F06ED309463A50000A8C9 /* SynthHumLabRayBan */,
 				EF1F06FB309463A70000A8C9 /* SynthHumLabRayBanTests */,
@@ -115,6 +124,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				EF1F06ED309463A50000A8C9 /* SynthHumLabRayBan */,
+				EF1F071930946C2E0000A8C9 /* docs */,
 			);
 			name = SynthHumLabRayBan;
 			packageProductDependencies = (
@@ -243,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1F072430946CED0000A8C9 /* LICENSE in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
