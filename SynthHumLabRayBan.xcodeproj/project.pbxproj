@@ -79,6 +79,11 @@
 			path = docs;
 			sourceTree = "<group>";
 		};
+		EF1F0750309482850000A8C9 /* .github */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = .github;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,7 @@
 		EF1F06E2309463A50000A8C9 = {
 			isa = PBXGroup;
 			children = (
+				EF1F0750309482850000A8C9 /* .github */,
 				EF1F073830947DD30000A8C9 /* DeveloperKeys.xcconfig */,
 				EF1F072330946CE10000A8C9 /* LICENSE */,
 				EF1F071930946C2E0000A8C9 /* docs */,
@@ -156,6 +162,7 @@
 			fileSystemSynchronizedGroups = (
 				EF1F06ED309463A50000A8C9 /* SynthHumLabRayBan */,
 				EF1F071930946C2E0000A8C9 /* docs */,
+				EF1F0750309482850000A8C9 /* .github */,
 			);
 			name = SynthHumLabRayBan;
 			packageProductDependencies = (
