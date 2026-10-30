@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+//test note for initial commit
 struct ContentView: View {
     var body: some View {
         VStack {

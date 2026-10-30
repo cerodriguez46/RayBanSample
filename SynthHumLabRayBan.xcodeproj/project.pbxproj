@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF1F0718309467770000A8C9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EF1F0717309467530000A8C9 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EF1F06F9309463A70000A8C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		EF1F06EB309463A50000A8C9 /* SynthHumLabRayBan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SynthHumLabRayBan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1F06F8309463A70000A8C9 /* SynthHumLabRayBanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynthHumLabRayBanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF1F0702309463A70000A8C9 /* SynthHumLabRayBanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynthHumLabRayBanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1F0717309467530000A8C9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		EF1F06E2309463A50000A8C9 = {
 			isa = PBXGroup;
 			children = (
+				EF1F0717309467530000A8C9 /* .gitignore */,
 				EF1F06ED309463A50000A8C9 /* SynthHumLabRayBan */,
 				EF1F06FB309463A70000A8C9 /* SynthHumLabRayBanTests */,
 				EF1F0705309463A70000A8C9 /* SynthHumLabRayBanUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF1F0718309467770000A8C9 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

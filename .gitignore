@@ -1,0 +1,14 @@
+# Xcode temporary / build files
+build/
+DerivedData/
+
+# Xcode user-specific data (STRICTLY DO NOT COMMIT)
+xcuserdata/
+*.xcuserdatad/
+*.xcuserstate
+
+# macOS system files
+.DS_Store
+
+# Swift Package Manager temporary files
+.build/
