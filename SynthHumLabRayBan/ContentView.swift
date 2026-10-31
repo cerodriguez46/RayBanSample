@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-//test note for initial commit
+//testing pr workflow setup
 struct ContentView: View {
     var body: some View {
         VStack {
