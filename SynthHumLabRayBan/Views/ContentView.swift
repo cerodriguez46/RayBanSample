@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-//testing pr workflow setup
+// UI components that display the sensor data 
 struct ContentView: View {
     var body: some View {
         VStack {
