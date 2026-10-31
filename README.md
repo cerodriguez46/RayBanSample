@@ -144,6 +144,7 @@ Break down Git and Github for newcomers in sub guides for contributing
 Create structs for each of the sensors to access
 Fill out index doc page for basics of accessing the sensors and lifecyle of meta ray bans
 Update app logo
+Add description of base files as they are laid out for MVVM architecture
 
 
 ## 🔒 Data & Privacy Policy
