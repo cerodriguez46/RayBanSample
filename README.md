@@ -134,6 +134,18 @@ Your job: keep the machine running — issues flowing, people unblocked,
    project's progress is visible to anyone — including future funders —
    without reading the code.
 
+---
+## Product Roadmap
+Set main branch to only be modified with pull requests
+Update license agreement
+Update privacy policy
+Expand pipeline 
+Break down Git and Github for newcomers in sub guides for contributing 
+Create structs for each of the sensors to access
+Fill out index doc page for basics of accessing the sensors and lifecyle of meta ray bans
+Update app logo
+
+
 ## 🔒 Data & Privacy Policy
 This application processes all camera, microphone, and sensor telemetry data stream assets **locally and in real-time** on the host iOS device. No hardware telemetry or media streams are stored, shared, or transmitted to external third-party cloud architectures. 
 
